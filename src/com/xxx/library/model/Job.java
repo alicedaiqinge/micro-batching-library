@@ -1,4 +1,4 @@
-package com.xxx.library;
+package com.xxx.library.model;
 
 import com.xxx.library.model.JobResult;
 

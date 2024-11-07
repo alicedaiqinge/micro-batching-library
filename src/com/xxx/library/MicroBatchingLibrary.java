@@ -1,10 +1,15 @@
 package com.xxx.library;
 
+import com.xxx.library.model.Job;
 import com.xxx.library.model.JobResult;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.*;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
 
 public class MicroBatchingLibrary {
     private final BatchProcessor batchProcessor;

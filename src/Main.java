@@ -1,5 +1,5 @@
 import com.xxx.library.BatchProcessor;
-import com.xxx.library.Job;
+import com.xxx.library.model.Job;
 import com.xxx.library.model.JobResult;
 import com.xxx.library.MicroBatchingLibrary;
 
